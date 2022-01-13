@@ -1,10 +1,11 @@
 import { MoviesGrid } from "./MoviesGrid";
+import styles from "./App.module.css";
 
 export function App() {
   return (
     <div>
       <header>
-        <h1> Películas </h1>
+        <h1 className={styles.title}> Películas </h1>
       </header>
       <main>
           <MoviesGrid/>
